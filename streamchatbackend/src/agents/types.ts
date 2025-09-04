@@ -22,7 +22,7 @@ export interface AIAgent {
 // getLastInteraction: () => number: A method that returns a number, likely representing a timestamp or an interaction count. This method is expected to be implemented to provide information about the last interaction the agent had.
 // init: () => Promise<void>: An asynchronous method that initializes the agent. It returns a promise that resolves when the initialization is complete.
 // dispose: () => Promise<void>: An asynchronous method that cleans up resources when the agent is no longer needed. It also returns a promise that resolves when the disposal is complete.
-
+    
 // 3. Enumeration: AgentPlatform
 // export enum AgentPlatform {
 //     OPENAI = "openai",
